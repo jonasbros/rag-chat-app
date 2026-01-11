@@ -4,7 +4,7 @@ export default function createConfig(options, ...userConfigs) {
   return antfu(
     {
       type: "app",
-      typescript: fals,
+      typescript: false,
       formatters: true,
       stylistic: {
         indent: 2,
@@ -15,17 +15,11 @@ export default function createConfig(options, ...userConfigs) {
     },
     {
       rules: {
-        "ts/consistent-type-definitions": ["error", "type"],
         "no-console": ["warn"],
         "antfu/no-top-level-await": ["off"],
         "node/prefer-global/process": ["off"],
         "node/no-process-env": ["error"],
-        "perfectionist/sort-imports": [
-          "error",
-          {
-            tsconfigRootDir: ".",
-          },
-        ],
+        "perfectionist/sort-imports": ["error"],
         "unicorn/filename-case": [
           "error",
           {

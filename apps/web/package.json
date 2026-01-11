@@ -1,8 +1,8 @@
 {
   "name": "@jonasbros-simple-rag-system/web",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,12 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
     "@jonasbros-simple-rag-system/api": "workspace:*",
-    "@jonasbros-simple-rag-system/eslint-config": "workspace:*"
+    "@jonasbros-simple-rag-system/eslint-config": "workspace:*",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@eslint-react/eslint-plugin": "^2.5.4",
     "@eslint/js": "^9.39.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",

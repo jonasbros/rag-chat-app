@@ -9,6 +9,7 @@
   "description": "",
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.3",
-    "eslint": "^9.39.2"
+    "eslint": "^9.39.2",
+    "eslint-plugin-format": "^0.1.3"
   }
 }

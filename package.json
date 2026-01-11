@@ -2,8 +2,9 @@
   "name": "jonasbros-simple-rag-system",
   "version": "1.0.0",
   "scripts": {
-    "dev": "concurrently \"npm run dev --workspace api\" \"npm run dev --workspace web\"",
-    "build": "npm run build --workspaces",
+    "dev": "pnpm run -r --parallel --aggregate-output dev",
+    "build": "pnpm run -r build",
+    "lint": "pnpm run -r --parallel lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
