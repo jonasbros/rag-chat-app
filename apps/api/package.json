@@ -2,7 +2,7 @@
   "name": "@jonasbros-simple-rag-system/api",
   "private": true,
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
@@ -14,14 +14,16 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@jonasbros-simple-rag-system/eslint-config": "workspace:*",
     "cors": "^2.8.5",
     "express": "^5.2.1",
     "express-rate-limit": "^8.2.1",
     "helmet": "^8.1.0",
-    "zod": "^4.3.5",
-    "@jonasbros-simple-rag-system/eslint-config": "workspace:*"
+    "morgan": "^1.10.1",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11",
+    "supabase": "^2.72.4"
   }
 }
