@@ -1,1 +1,1 @@
-# SIMPLE RAG(Retrieval-Augmented Generation) CHAT APP
+# RAG(Retrieval-Augmented Generation) CHAT APP
