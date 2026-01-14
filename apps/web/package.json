@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@jonasbros-simple-rag-system/api": "workspace:*",
-    "@jonasbros-simple-rag-system/eslint-config": "workspace:*",
+    "@jonasbros-simple-rag-system/api": "workspace:^",
+    "@jonasbros-simple-rag-system/eslint-config": "workspace:^",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },

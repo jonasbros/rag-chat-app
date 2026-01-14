@@ -6,11 +6,5 @@
     "build": "pnpm run -r build",
     "lint": "pnpm run -r --parallel lint",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "concurrently": "^9.2.1"
   }
 }
